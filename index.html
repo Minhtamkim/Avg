@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <title>Tính điểm trung bình</title>
+
+    <!-- connect css -->
+    <link
+      rel="icon"
+      href="https://e7.pngegg.com/pngimages/853/866/png-clipart-scalable-graphics-computer-icons-education-icon-angle-leaf-thumbnail.png"
+    />
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <h1>Tính điểm trung bình cả năm</h1>
+    <p>
+      Nhập điểm học kì 1 và điểm học kì 2 để bắt đầu tính điểm trung bình cả năm
+      của bạn
+    </p>
+    <div>
+      <label for="avg1">Điểm học kì 1:</label>
+      <input type="number" id="avg1" />
+    </div>
+
+    <div>
+      <label for="avg2">Điểm học kì 2:</label>
+      <input type="number" id="avg2" />
+    </div>
+
+    <button onclick="calcAvg()">Xác nhận</button>
+
+    <p class="result" id="result">
+      Điểm trung bình môn cả năm của bạn là: <strong id="score"></strong>
+    </p>
+
+    <!-- connect javascript -->
+    <script src="./index.js"></script>
+  </body>
+</html>
